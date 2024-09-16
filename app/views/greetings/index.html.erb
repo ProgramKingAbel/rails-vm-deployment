@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greet Users</title>
+</head>
+<body>
+  <h1>Greetings!</h1>
+  <ul>
+    <% @users.each do |user| %>
+      <li>Hello, <%= user.name %>!</li>
+    <% end %>
+  </ul>
+
+  <h1>Congratulations for setting this server up in prod</h2>
+</body>
+</html>
+
